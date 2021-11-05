@@ -12,6 +12,9 @@
   align-items: center;
 }
 
+.nb {
+  background-color: #05a0e7;
+}
 .footer {
   display: flex;
   flex: 1;

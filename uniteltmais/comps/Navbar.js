@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Navbar = () => {
 
     return(
+        
         <div>
             <Button className={styles.nb}>Oferta</Button>
             <a>Oferta</a>

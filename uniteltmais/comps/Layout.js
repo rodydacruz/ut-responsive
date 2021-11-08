@@ -7,7 +7,7 @@ import Header from "./Header";
 const Layout = ({children}) => {
     return(
         <Container>
-            <Row xs={12} md={10} lg={8}>
+            <Row xs={12} md={10} lg={8} >
             
             <Header />
             {children}

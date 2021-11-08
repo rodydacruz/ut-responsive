@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import BImage from 'react-bootstrap/Image'
 import Carousels from '../comps/Carousels'
 import styles from '../styles/Home.module.css'
 import Container from 'react-bootstrap/Container'
@@ -20,6 +21,8 @@ export default function Home() {
 
       <main>
         <Carousels />
+        <BImage src="holder.js/100px250" fluid />
+        
       </main>
 
       <footer className={styles.footer}>

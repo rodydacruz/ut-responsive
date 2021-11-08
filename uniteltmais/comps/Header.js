@@ -1,11 +1,10 @@
+
 import Navbar from "./Navbar";
 
-const Header = () => {
+export default function Herder() {
     return(
         <div>
             <Navbar />
         </div>
     );
 }
-
-export default Header;

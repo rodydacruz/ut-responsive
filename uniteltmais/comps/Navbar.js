@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 const Navbar = () => {
 
     return(
@@ -14,7 +15,7 @@ const Navbar = () => {
             <a>Casa +</a>
             <a>Univel Web</a>
             <a>Casa +TV</a>
-        </div>
+            </div>
     );
     
 }

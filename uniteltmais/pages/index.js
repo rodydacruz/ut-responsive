@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col'
 export default function Home() {
   return (
     <Container >
-      <Row>
+      <Row xs={12} md={10} lg={8}>
     <Col>
     
       <Head>

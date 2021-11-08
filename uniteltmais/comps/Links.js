@@ -8,7 +8,7 @@ export default function Links(){
         <div>
         <Link href="https://www.facebook.com/rdc.rodydacruz"><a target="_blank"><Facebook /></a></Link>
         <Link href="https://twitter.com/RODYDACRUZ"><a target="_blank"><Twitter /></a></Link>
-        <Link href="https://www.youtube.com/channel/UCH1oMlEtrhWpq42f4O9rvMg"><Youtube /><a target="_blank"></a></Link>
+        <Link href="https://www.youtube.com/channel/UCH1oMlEtrhWpq42f4O9rvMg"><a target="_blank"><Youtube /></a></Link>
         <Link href="https://www.instagram.com/rodydacruz/s"><a target="_blank"><Instagram /></a></Link>
         <Link href="/"><a></a></Link>
     </div>

@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 export default function Herder() {
     return(
         <div>
-            <Navbar />
+            <Navbar/>
         </div>
     );
 }

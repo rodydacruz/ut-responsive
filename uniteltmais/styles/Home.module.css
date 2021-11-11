@@ -3,6 +3,7 @@
   padding: 0 2rem;
 }
 
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -116,11 +117,26 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.navbarm{
+  align-items: center;
+  background: #ff8844;
+}
+.navibarmi{
+  background: #ff8844;
+
+}
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+    
   }
 }
-
+@media (min-width: 1026px) {
+  .navbarm { display: none; }
+}
+@media (max-width: 1026px) {
+  .navbar { display: none; }
+}
+  

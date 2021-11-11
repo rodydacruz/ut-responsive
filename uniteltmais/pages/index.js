@@ -30,12 +30,12 @@ export default function Home() {
   
     </Row>
     <Row>
-    <Col> <BImage src="Internet-Computador.png" /></Col>
+    <Col> <BImage src="Internet-Computador.png"/></Col>
     <Col> <BImage src="Internet-Computador-1.png" /></Col>
     <Col> <BImage src="Roaming_Home.png" /></Col>
     <Col>
       <Row><BImage src="Como-Ser-Cliente.png" /></Row>
-      <Row><BImage src="Apoio-ao-cliente360.png" /></Row>
+      <Row><BImage src="Apoio-ao-cliente360.png"/></Row>
      </Col>
     
 

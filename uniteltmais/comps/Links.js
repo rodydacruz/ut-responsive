@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import { Facebook,Instagram,Youtube,Twitter,Pinterest } from 'react-bootstrap-icons';
 
+
 export default function Links(){
     return(
         <div>

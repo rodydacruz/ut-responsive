@@ -10,8 +10,8 @@ import {List} from 'react-bootstrap-icons'
 const Navbar = () => {
 
     return(
-        <Container >
-        <div>
+        <Container ><Row className={styles.navbar}> <div >
+            
             <Button variant="flat" className={styles.nb}>+ OFERTA</Button>
             <Button variant="flat" className={styles.nb}>UNITEL PRO +</Button>
             <Button variant="flat" className={styles.nb}>Unitel Tmais</Button>
@@ -25,13 +25,14 @@ const Navbar = () => {
             <a></a>
             <a></a>
             <a></a>
-            </div>
-            <Row>
+            </div></Row>
+       
+            <Row className={styles.navbar}>
                 <Col></Col>
                 <Col></Col>
                 <Col></Col>
                 <Col></Col>
-                <Col><List /></Col>
+                <Col><List size="4em"/></Col>
             </Row>
             </Container>
     );

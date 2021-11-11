@@ -9,6 +9,7 @@ const Footer = () => {
 
     return(
         <Container className={styles.footer}>
+            <Row style ={{backgroundColor:"white", width:"80%"}}>
             <Row xs={12} md={10} lg={8} >
                 <Col>
                     <Links/>
@@ -61,6 +62,7 @@ const Footer = () => {
                 
                 </Row>
                 </Col>
+            </Row>
             </Row>
             
         </Container>

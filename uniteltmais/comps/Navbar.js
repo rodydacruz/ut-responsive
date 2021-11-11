@@ -10,7 +10,7 @@ import {List, Search} from 'react-bootstrap-icons'
 const Navbar = () => {
 
     return(
-        <Container ><Row className={styles.navbar}> <div>
+        <Container ><Row className={styles.navb}> <div>
             
             <Button variant="flat" className={styles.nb}>+ OFERTA</Button>
             <Button variant="flat" className={styles.nb}>UNITEL PRO +</Button>
@@ -27,7 +27,7 @@ const Navbar = () => {
             <a></a>
             </div></Row>
        
-            <Row xs={12} md={12} lg={12} className={styles.navbarm}>
+            <Row xs={12} md={12} lg={12} className={styles.navbm}>
                 <Col xs={2} md={2} lg={2} className={styles.navbarmi}><BImage src="Logo-Cliente copy.png" fluid/></Col>
                 <Col xs={2} md={2} lg={2} className={styles.navbarmi}><BImage src="logo-casa+.png" fluid/></Col>
                 <Col xs={2} md={2} lg={2} className={styles.navbarmi}><BImage src="logo-my-unitel-web.png" fluid/></Col>

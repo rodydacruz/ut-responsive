@@ -9,7 +9,7 @@ const Footer = () => {
 
     return(
         <Container className={styles.footer}>
-            <Row style ={{padding:}>
+            <Row style ={{padding:"10rem"}}>
             <Row xs={12} md={10} lg={8} >
                 <Col>
                     <Links/>

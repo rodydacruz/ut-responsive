@@ -25,18 +25,7 @@ export default function Home() {
         
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' RodyDaCruz'}
-          <span className={styles.logo}>
-            <Image src="/RDC-B.svg" alt="RDC Logo" width={100} height={100} />
-          </span>
-        </a>
-      </footer>
+      
       </Col>
   
     </Row>
@@ -51,6 +40,18 @@ export default function Home() {
     
 
     </Row>
+    <Row><footer className={styles.footer}>
+        <a
+          href="http://rodydacruz.herokuapp.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{' RodyDaCruz'}
+          <span className={styles.logo}>
+            <BImage src="/RDC-B.svg" alt="RDC Logo" width={100} height={100} />
+          </span>
+        </a>
+      </footer></Row>
     
     </Container>
   )

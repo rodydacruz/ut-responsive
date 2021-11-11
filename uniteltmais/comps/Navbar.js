@@ -2,11 +2,15 @@ import styles from '../styles/Home.module.css'
 import Button from 'react-bootstrap/Button'
 import BImage from 'react-bootstrap/Image'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import {List} from 'react-bootstrap-icons'
 
 const Navbar = () => {
 
     return(
-        
+        <Container >
         <div>
             <Button variant="flat" className={styles.nb}>+ OFERTA</Button>
             <Button variant="flat" className={styles.nb}>UNITEL PRO +</Button>
@@ -22,6 +26,14 @@ const Navbar = () => {
             <a></a>
             <a></a>
             </div>
+            <Row>
+                <Col></Col>
+                <Col></Col>
+                <Col></Col>
+                <Col></Col>
+                <Col><List /></Col>
+            </Row>
+            </Container>
     );
     
 }

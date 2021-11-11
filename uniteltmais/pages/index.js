@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col'
 export default function Home() {
   return (
     <Container >
-      <Row xs={12} md={10} lg={8}>
+      <Row >
     <Col>
     
       <Head>
@@ -21,7 +21,7 @@ export default function Home() {
 
       <main>
         <Carousels />
-        <BImage src="holder.js/100px250" fluid />
+        <BImage src="Banner_Loja_Destaques.png" style={{width:"100%"}}/>
         
       </main>
 
@@ -31,14 +31,27 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{' RodyDaCruz'}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/RDC-B.svg" alt="RDC Logo" width={100} height={100} />
           </span>
         </a>
       </footer>
       </Col>
+  
     </Row>
+    <Row>
+    <Col> <BImage src="Internet-Computador.png" /></Col>
+    <Col> <BImage src="Internet-Computador-1.png" /></Col>
+    <Col> <BImage src="Roaming_Home.png" /></Col>
+    <Col>
+      <Row><BImage src="Como-Ser-Cliente.png" /></Row>
+      <Row><BImage src="Apoio-ao-cliente360.png" /></Row>
+     </Col>
+    
+
+    </Row>
+    
     </Container>
   )
 }

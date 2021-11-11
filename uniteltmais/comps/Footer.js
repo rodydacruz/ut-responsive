@@ -1,3 +1,5 @@
+import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 import Container from "react-bootstrap/Container"
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -6,28 +8,29 @@ import Links from "./Links";
 const Footer = () => {
 
     return(
-        <Container>
-            <Row xs={12} md={10} lg={8}>
+        <Container className={styles.footer}>
+            <Row xs={12} md={10} lg={8} >
                 <Col>
-                    <Links />
+                    <Links/>
                 </Col>
             </Row>
             <Row xs={12} md={10} lg={8}>
-                <Col>PLANOS TARIFÁRIOS</Col>
-                <Col>SERVIÇOS</Col>
-                <Col>PRODUTOS</Col>
-                <Col>UNITEL T+</Col>
-            </Row>
-            <Row >
-                <Col>
-                UNITELT+ PLAY
+                <Col className={styles.footerc}>
+                <Row className={styles.footert}>PLANOS TARIFÁRIOS</Row>
+                <Row>
+                    UNITELT+ PLAY
                 TARIFÁRIO CLÁSSICO
                 TARIFÁRIO PRESTIGIO
                 TARIFÁRIO EMPRESA
                 TARIFÁRIO LIBERTY
                 FIXO +
+                </Row>
+
                 </Col>
-                <Col>
+
+                <Col className={styles.footerc}>
+                <Row className={styles.footert}>SERVIÇOS</Row>
+                <Row>
                 SERVIÇOS ADICIONAIS
                 SERVIÇOS DE SMS
                 RECARGA ONLINE
@@ -36,23 +39,30 @@ const Footer = () => {
                 ROAMING
                 PORTABILIDADE
                 MEGAS LIVRES
+                </Row>
                 </Col>
-                <Col>
-                TELEMÓVEIS E SMARTPHONES
+                <Col className={styles.footerc}>
+                <Row className={styles.footert}>PRODUTOS</Row>
+                <Row> TELEMÓVEIS E SMARTPHONES
                 PLACAS 3G E ROUTERS
                 TABLETES E PORTATEIS
-                TELEFONES
+                TELEFONES</Row>
                 </Col>
-                <Col>
-                QUEM SOMOS
-                LOJAS
-                PROMOÇOES
-                REVISTA UNITE T+
-                RECRUTAMENTO
-                VIDEOS UNITELT+
-                CONTACTE-NOS
+                <Col className={styles.footerc}>
+                <Row className={styles.footert}>UNITEL T+</Row>
+                <Row>
+                <p><Link href="/"><a>QUEM SOMOS</a></Link></p>
+                <p>LOJAS</p>
+                <p>PROMOÇOES</p>
+                <p>REVISTA UNITE T+</p>
+                <p>RECRUTAMENTO</p>
+                <p>VIDEOS UNITELT+</p>
+                <p>CONTACTE-NOS</p>
+                
+                </Row>
                 </Col>
             </Row>
+            
         </Container>
     );
     

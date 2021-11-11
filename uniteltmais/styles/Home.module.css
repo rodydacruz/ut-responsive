@@ -13,10 +13,10 @@
 }
 
 .nb {
-  border-radius: 50px 50px 0px 0px;
-  background-color: #05a0e7;
-  margin: 10px;
-  padding: 1rem;
+  margin: 0.5rem;
+}
+.nb:hover{
+  background: #ff8844;
 }
 .footer {
   padding: 2rem 0;
@@ -26,7 +26,8 @@
 }
 
 .footerc {
-  background-color: #bbb;
+  color: white;
+  background-color: #999;
 }
 .footert {
   background-color: #444;

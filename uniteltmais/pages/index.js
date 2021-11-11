@@ -34,8 +34,8 @@ export default function Home() {
     <Col> <BImage src="Internet-Computador-1.png" /></Col>
     <Col> <BImage src="Roaming_Home.png" /></Col>
     <Col>
-      <Row><BImage src="Como-Ser-Cliente.png" /></Row>
-      <Row><BImage src="Apoio-ao-cliente360.png"/></Row>
+    <p><BImage src="Como-Ser-Cliente.png" /></p>
+      <p><BImage src="Apoio-ao-cliente360.png"/></p>
      </Col>
     
 

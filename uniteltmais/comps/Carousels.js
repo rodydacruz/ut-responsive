@@ -7,7 +7,7 @@ export default function Carousels() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=f5f5f5"
+            src="1.png"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -18,7 +18,7 @@ export default function Carousels() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=eee"
+            src="2.png"
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -29,7 +29,7 @@ export default function Carousels() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+            src="3.png"
             alt="Third slide"
           />
           <Carousel.Caption>
